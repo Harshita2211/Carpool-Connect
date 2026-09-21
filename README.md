@@ -1,31 +1,31 @@
-# Hamrahi (Carpooling web app) 🚗
+# Carpool-Connect 
 
 A modern, feature-rich carpooling application that connects drivers and passengers for shared rides, helping people save money, reduce their carbon footprint, and build community connections.
 
-## 🌟 Features
+##  Features
 
-### 🚗 Core Functionality
+###  Core Functionality
 - **Trip Management**: Create, view, and manage carpool trips
 - **Driver Profiles**: Comprehensive driver information with avatars and ratings
 - **Passenger Booking**: Easy seat booking with real-time availability
 - **Route Visualization**: Interactive maps with detailed route information
 - **Real-time Search**: Filter trips by origin, destination, price, and dates
 
-### 🎨 Enhanced User Experience
+###  Enhanced User Experience
 - **Modern UI**: Beautiful, responsive design with Bootstrap 5
 - **Interactive Maps**: Leaflet.js integration with route visualization
 - **Driver Information**: Display driver names, avatars, and ratings
 - **Trip Statistics**: Distance, duration, and estimated costs
 - **Mobile Responsive**: Works seamlessly on all devices
 
-### 🔐 Security & Reliability
+###  Security & Reliability
 - **User Authentication**: Secure login and registration system
 - **Data Validation**: Comprehensive input validation and error handling
 - **Foreign Key Constraints**: Proper database relationships
 - **Session Management**: Secure user session handling
 - **Error Handling**: User-friendly error messages and fallbacks
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Frontend
 - **EJS Template Engine**: Server-side rendering with dynamic content
@@ -52,7 +52,7 @@ A modern, feature-rich carpooling application that connects drivers and passenge
 - **OpenRouteService**: Route calculation and optimization
 - **Supabase Storage**: File uploads (avatars, images)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CarPool/
@@ -85,7 +85,7 @@ CarPool/
 └── 📄 README.md               # This file
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -140,7 +140,7 @@ CarPool/
    - Open your browser and navigate to `http://localhost:3000`
    - Register a new account or log in with existing credentials
 
-## 📊 Database Schema
+##  Database Schema
 
 ### Tables
 
@@ -194,7 +194,7 @@ CREATE TABLE bookings (
 - **trips → bookings**: One-to-many (trip can have many bookings)
 - **profiles → bookings**: One-to-many (passenger can have many bookings)
 
-## 🎯 Key Features in Detail
+##  Key Features in Detail
 
 ### Trip Management
 - **Create Trips**: Drivers can create new trips with origin, destination, date, time, seats, and price
@@ -220,7 +220,7 @@ CREATE TABLE bookings (
 - **Real-time Updates**: Live seat availability and trip status
 - **Error Handling**: Comprehensive error messages and fallbacks
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /auth/register` - User registration
@@ -243,7 +243,7 @@ CREATE TABLE bookings (
 - **OpenStreetMap**: Map tiles and geocoding
 - **Supabase Storage**: File uploads and management
 
-## 🎨 UI Components
+##  UI Components
 
 ### Trip Cards
 - **Modern Design**: Gradient headers and shadow effects
@@ -263,7 +263,7 @@ CREATE TABLE bookings (
 - **Accessibility**: Proper ARIA labels and keyboard navigation
 - **Error Handling**: Comprehensive error display and recovery
 
-## 🔒 Security Features
+##  Security Features
 
 ### Authentication
 - **Secure Login**: Password hashing and session management
@@ -283,7 +283,7 @@ CREATE TABLE bookings (
 - **Encryption**: Data encryption at rest and in transit
 - **Backup Strategy**: Automated database backups
 
-## 🚀 Deployment
+##  Deployment
 
 ### Environment Setup
 ```bash
@@ -338,7 +338,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-## 📈 Performance Optimization
+##  Performance Optimization
 
 ### Database Optimization
 - **Query Optimization**: Efficient joins and indexing
@@ -358,7 +358,7 @@ CMD ["npm", "start"]
 - **CDN Integration**: Content delivery network for assets
 - **Load Balancing**: Horizontal scaling support
 
-## 🧪 Testing
+##  Testing
 
 ### Unit Tests
 ```bash
@@ -387,7 +387,7 @@ npm run test:e2e
 npm run test:e2e:chrome
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -428,7 +428,7 @@ DEBUG=* npm run dev
 npm run debug:env
 ```
 
-## 📝 Contributing
+##  Contributing
 
 ### Development Workflow
 1. Fork the repository
@@ -449,11 +449,11 @@ npm run debug:env
 - **Breaking Changes**: Clearly document any breaking changes
 - **Performance**: Consider performance implications
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Supabase**: Backend-as-a-Service platform
 - **OpenStreetMap**: Open-source mapping data
@@ -462,21 +462,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Leaflet.js**: Interactive mapping library
 - **Font Awesome**: Icon library
 
-## 📞 Support
+##  Support
 
 ### Getting Help
 - **Documentation**: Check this README and inline code comments
 - **Issues**: Report bugs and feature requests on GitHub
-- **Discussions**: Join community discussions
-- **Email**: Contact the development team
-
-### Community
-- **Contributors**: Thank you to all contributors
-- **Users**: Special thanks to our early adopters
-- **Supporters**: Thanks to everyone who supports this project
+- **Email**: guptaharshita979@gmail.com
 
 ---
 
-**Built with ❤️ for the carpooling community**
+**Built with pride by Harshita Gupta**
 
 *Happy carpooling! 🚗✨*
