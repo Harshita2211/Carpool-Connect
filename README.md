@@ -449,10 +449,6 @@ npm run debug:env
 - **Breaking Changes**: Clearly document any breaking changes
 - **Performance**: Consider performance implications
 
-##  License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ##  Acknowledgments
 
 - **Supabase**: Backend-as-a-Service platform
